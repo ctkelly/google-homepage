@@ -1,2 +1,2 @@
-# google-homepage
-Re-create the Google homepage
+
+First project: re-create the Google homepage
