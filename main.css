@@ -1,1 +1,144 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+}
 
+ul li {
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px; 
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: rgb(129, 126, 126);
+}
+
+.left-header {
+    float: left;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+.right-header {
+    float: right;
+    margin-right: 20px;
+}
+
+.app-icon {
+    margin-bottom: -8px;
+    fill: gray;
+}
+
+#sign-in-button {
+    background-color: rgb(107, 174, 219);
+    width: 70px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 7px;
+    
+}
+
+img {
+    display: block;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type="text"] {
+    display: block;
+    margin: 10px auto;
+    width: 475px;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 20px 20px;
+
+}
+
+input[type="submit"] {
+    width: 140px;
+    font-size: 14px;
+    color: rgb(114, 113, 113);
+    background-color: rgb(238, 237, 237);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5%;
+    
+}
+
+.input-with-icon {
+    position: relative;
+    width: 475px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.input-with-icon i {
+    position: absolute;
+    top: 8px;
+    left: 15px;
+    float: left;
+}
+
+.material-icons {
+    color: gray;
+
+}
+
+.center-buttons {
+    margin: 20px;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid;
+    border-color: rgb(228, 224, 224);
+    color: rgb(70, 69, 69);
+    background-color: rgb(243, 240, 240);
+}
+
+.left-footer {
+    float: left;
+    margin-left: -20px;
+}
+.right-footer {
+    float: right;
+    margin-right: 20px;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.app-icon:hover {
+    fill: black;   
+}
+
+input[type="submit"]:hover {
+    border: 1px solid;
+    border-color: rgb(197, 194, 194);
+}
+
+input[type="text"]:hover {
+    box-shadow: 0 0 2px 2px rgb(228, 226, 226);
+    border: 1px solid rgb(190, 188, 188);
+    
+}
