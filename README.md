@@ -1,2 +1,2 @@
 
-First project from The Odin Project: re-create the Google homepage
+First project from The Odin Project: build the Google homepage
